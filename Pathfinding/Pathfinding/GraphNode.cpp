@@ -2,7 +2,16 @@
 GraphNode::GraphNode()
 {
 
+	
+
+
+
+	
+
 }
+
+
+
 
 GraphNode::~GraphNode()
 {

@@ -1,12 +1,12 @@
 #include "Graph.h"
 Graph::Graph()
 {
-	void AddNode(GraphNode* a_pNode);
-	{
-		GraphNode*push_back();
-	}
-}
 
+}
+void Graph::AddNode(GraphNode* a_pNode)
+{
+	m_aNodes.push_back(a_pNode);
+}
 Graph::~Graph()
 {
 }

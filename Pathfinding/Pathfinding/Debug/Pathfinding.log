@@ -1,15 +1,15 @@
-﻿Build started 2/23/2015 3:19:35 PM.
-     1>Project "c:\Users\bryson.au\documents\visual studio 2013\Projects\Pathfinding\Pathfinding\Pathfinding.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2/23/2015 5:57:07 PM.
+     1>Project "C:\Users\bryson.au\Documents\GitHub\AI-Pathfinding\Pathfinding\Pathfinding\Pathfinding.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\bryson.au\documents\visual studio 2013\Projects\Pathfinding\Debug\Pathfinding.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\bryson.au\documents\visual studio 2013\Projects\Pathfinding\Debug\Pathfinding.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\bryson.au\documents\visual studio 2013\Projects\Pathfinding\Debug\Pathfinding.lib" /MACHINE:X86 Debug\Graph.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bryson.au\Documents\GitHub\AI-Pathfinding\Pathfinding\Debug\Pathfinding.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\bryson.au\Documents\GitHub\AI-Pathfinding\Pathfinding\Debug\Pathfinding.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bryson.au\Documents\GitHub\AI-Pathfinding\Pathfinding\Debug\Pathfinding.lib" /MACHINE:X86 Debug\Graph.obj
          Debug\GraphNode.obj
          Debug\main.obj
-         Pathfinding.vcxproj -> c:\users\bryson.au\documents\visual studio 2013\Projects\Pathfinding\Debug\Pathfinding.exe
-     1>Done Building Project "c:\Users\bryson.au\documents\visual studio 2013\Projects\Pathfinding\Pathfinding\Pathfinding.vcxproj" (Build target(s)).
+         Pathfinding.vcxproj -> C:\Users\bryson.au\Documents\GitHub\AI-Pathfinding\Pathfinding\Debug\Pathfinding.exe
+     1>Done Building Project "C:\Users\bryson.au\Documents\GitHub\AI-Pathfinding\Pathfinding\Pathfinding\Pathfinding.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.61
+Time Elapsed 00:00:00.65

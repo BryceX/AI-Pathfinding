@@ -1,15 +1,16 @@
 #pragma once
 #include <vector>
+class GraphNode;
+struct Edge
+{
+	GraphNode*	m_pStart;
+	GraphNode*	m_pEnd;
+	float		m_fCost;
+};
 class GraphNode
 {
-
-	struct Edge
-	{
-		GraphNode*	m_pStart;
-		GraphNode*	m_pEnd;
-
-		float		m_fCost;
-	};
+	
+	
 	public:
 	GraphNode(int a_iNum);
 

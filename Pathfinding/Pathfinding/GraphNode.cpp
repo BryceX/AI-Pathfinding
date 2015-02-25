@@ -22,8 +22,13 @@ void GraphNode::PrintNeighbors()
 			// skip over
 			continue;
 		}
-
-		std::cout << m_aEdges[i].m_pEnd->m_iNodeNumber << std::endl;
+		
+		std::cout << "Node  [";
+		std::cout << m_aEdges[i].m_pEnd->m_iNodeNumber;
+		std::cout << "]  is neighbor of:  Node  [";
+		std::cout << this->m_iNodeNumber;
+		std::cout << "]" << std::endl;
+		
 	}
 }
 bool GraphNode::CheckIfNeighbor(GraphNode* nodeB)
@@ -33,16 +38,9 @@ bool GraphNode::CheckIfNeighbor(GraphNode* nodeB)
 	{
 		return true;
 	}
+	else return false;
 }
 
-void GraphNode::RemoveNode(GraphNode* node)
-{
-	for (int i = 0; i < m_aEdges.size(); i++)
-	{
-
-	}
-
-}
 
 GraphNode::~GraphNode()
 {

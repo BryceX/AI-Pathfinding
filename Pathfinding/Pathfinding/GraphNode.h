@@ -20,17 +20,17 @@ struct Edge
 	float		m_fCost;
 	void PrintEnd();
 	
-
 };
 
 class GraphNode
 {
 	
-	
 	public:
 	GraphNode(int a_iNum);
 	void PrintNeighbors();
 	bool CheckIfNeighbor(GraphNode* nodeB);
+	bool Visited = false;
+	
 	void RemoveNode(GraphNode* node);
 	
 

@@ -89,7 +89,13 @@ int main(int argc, char* argv[])
 	
 	//edge0.PrintEnd();
 	node1->PrintNeighbors();
-	std::cout<<node1->CheckIfNeighbor(node0)<< std::endl;
+
+
+	//should reutrn false
+	std::cout<<node2->CheckIfNeighbor(node0)<< std::endl;
+
+
+	node3->PrintNeighbors();
 
 	system("PAUSE");
 	return 0;

@@ -2,6 +2,7 @@
 #include "GraphNode.h"
 #include <vector>
 #include <iostream>
+#include <stack>
 class Graph
 {
 	
@@ -14,8 +15,9 @@ class Graph
 		//the contents and links of the nodes are randomised
 		Graph(unsigned int a_uiNodeCount);
 		void AddNode(GraphNode* a_pNode);
-		void RemoveNode(GraphNode* a_pNode);
-		
+		void RemoveNode(GraphNode* node);
+		void ResetVisited();
+		bool SearchDFS(GraphNode* a_pStart, GraphNode* a_pEnd);
 
 	//private:
 		NodeList	m_aNodes;

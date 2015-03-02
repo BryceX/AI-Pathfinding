@@ -44,10 +44,7 @@ void Graph::RemoveNode(GraphNode* node)
 
 void Graph::ResetVisited()
 {
-	for (int i = 0; i < m_aNodes.size(); i++)
-	{
-		this->m_aNodes[i] = false;
-	}
+	bool Visited = false;
 }
 bool Graph::SearchDFS(GraphNode* a_pStart, GraphNode* a_pEnd)//Add to SearchDFS function
 {
@@ -64,12 +61,12 @@ bool Graph::SearchDFS(GraphNode* a_pStart, GraphNode* a_pEnd)//Add to SearchDFS 
 		GraphNode* pCurrent = oNodeStack.top();
 		oNodeStack.pop();
 
-		if (pCurrent->m_bMarked == true)
+		if (pCurrent->Visited == true)
 		{
 			continue;
 		}
 
-		pCurrent->m_bMarked = true;
+		pCurrent->Visited = true;
 
 	}
 

@@ -30,13 +30,15 @@ class GraphNode
 	void PrintNeighbors();
 	bool CheckIfNeighbor(GraphNode* nodeB);
 	bool Visited = false;
-	
+	void IsNeighbor();
 	void RemoveNode(GraphNode* node);
 	
-
-	int		m_iNodeNumber;
+	void SetNode(int id, float x, float y );
+	float x;
+	float y;
+	int	id;
 	typedef std::vector<Edge> EdgeList;
-	EdgeList   m_aEdges;
+	EdgeList  m_aEdges;
 
 
 	GraphNode();

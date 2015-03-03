@@ -3,6 +3,9 @@
 #include <vector>
 #include <iostream>
 #include <stack>
+#include <queue>
+
+
 class Graph
 {
 	
@@ -17,7 +20,12 @@ class Graph
 		void AddNode(GraphNode* a_pNode);
 		void RemoveNode(GraphNode* node);
 		void ResetVisited();
+
+		void CreateGraph(int  id,float xSet, float ySet, int xNum, int yNum);
+		
 		bool SearchDFS(GraphNode* a_pStart, GraphNode* a_pEnd);
+		bool SearchBFS(GraphNode* a_pStart, GraphNode* a_pEnd);
+
 
 	//private:
 		NodeList	m_aNodes;

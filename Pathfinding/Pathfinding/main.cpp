@@ -31,8 +31,8 @@ int main(int argc, char* argv[])
 	GraphNode* node1 = new GraphNode();
 	GraphNode* node2 = new GraphNode();
 	GraphNode* node3 = new GraphNode();
-	/*GraphNode* node4 = new GraphNode();
-	GraphNode* node5 = new GraphNode();
+	GraphNode* node4 = new GraphNode();
+	/*GraphNode* node5 = new GraphNode();
 	GraphNode* node6 = new GraphNode();
 	GraphNode* node7 = new GraphNode();*/
 
@@ -59,10 +59,13 @@ int main(int argc, char* argv[])
 
 
 	Graph myGraph;
-	node0->m_iNodeNumber = 0;
-	node1->m_iNodeNumber = 1;
-	node2->m_iNodeNumber = 2;
-	node3->m_iNodeNumber = 3;
+
+
+	node0->id = 0;
+	node1->id = 1;
+	node2->id = 2;
+	node3->id = 3;
+	node4->id = 4;
 
 
 
@@ -88,14 +91,20 @@ int main(int argc, char* argv[])
 	//std::cout << node1->m_iNodeNumber << std::endl;
 	
 	//edge0.PrintEnd();
+	node0->PrintNeighbors();
 	node1->PrintNeighbors();
-
-
-	//should reutrn false
-	std::cout<<node2->CheckIfNeighbor(node0)<< std::endl;
-
-
+	node2->PrintNeighbors();
 	node3->PrintNeighbors();
+
+	//this blows the fuck up
+	myGraph.CreateGraph(100, 1, 1, 10, 10);
+
+	
+	
+	
+
+
+	
 
 	system("PAUSE");
 	return 0;

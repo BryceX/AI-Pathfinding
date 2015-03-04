@@ -13,7 +13,9 @@ class Graph
 
 	public:
 		//Creates an empty graph
-		
+			Graph();
+
+	~Graph();
 		//Creates a graph with the given number of nodes
 		//the contents and links of the nodes are randomised
 		Graph(unsigned int a_uiNodeCount);
@@ -21,7 +23,7 @@ class Graph
 		void RemoveNode(GraphNode* node);
 		void ResetVisited();
 
-		void CreateGraph(int  id,float xSet, float ySet, int xNum, int yNum);
+		Graph CreateGraph(float xSpace, float ySpace, int xNum, int yNum);
 		
 		bool SearchDFS(GraphNode* a_pStart, GraphNode* a_pEnd);
 		bool SearchBFS(GraphNode* a_pStart, GraphNode* a_pEnd);
@@ -33,7 +35,5 @@ class Graph
 	
 
 
-	Graph();
 
-	~Graph();
 };

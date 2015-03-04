@@ -73,7 +73,7 @@ int main(int argc, char* argv[])
 	myGraph.AddNode(node1);
 	myGraph.AddNode(node2);
 	myGraph.AddNode(node3);
-
+	myGraph.AddNode(node4);
 
 
 
@@ -91,13 +91,13 @@ int main(int argc, char* argv[])
 	//std::cout << node1->m_iNodeNumber << std::endl;
 	
 	//edge0.PrintEnd();
-	node0->PrintNeighbors();
+	/*node0->PrintNeighbors();
 	node1->PrintNeighbors();
 	node2->PrintNeighbors();
-	node3->PrintNeighbors();
+	node3->PrintNeighbors();*/
 
-	//this blows the fuck up
-	myGraph.CreateGraph(100, 1, 1, 10, 10);
+	
+	myGraph.CreateGraph( 1, 1, 10, 10);
 
 	
 	
